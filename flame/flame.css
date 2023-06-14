@@ -1,0 +1,19 @@
+body {
+  --color-background: #fff !important;
+  --color-primary: #000 !important;
+  --color-accent: #4e4e4e !important;
+  --spacing-ui: 10px;
+
+  background-color: var(--color-background);
+  transition: background-color 0.3s;
+  font-family: serif;
+  font-size: 16px;
+}
+
+.AppCard_AppIcon__t3PVW {
+    display: none;
+}
+
+.AppCard_AppCardDetails__HgNoY {
+    text-transform: none !important;
+}

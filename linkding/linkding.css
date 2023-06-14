@@ -1,0 +1,66 @@
+body {
+    background-color: white !important;
+    font-size: 16px;
+    color: black;
+}
+
+.title a, .navbar-brand, .btn.btn-link, a {
+    color: black !important;
+}
+
+.title a {
+    font-size: 20px;
+}
+
+.bookmarks-page form.bookmark-actions ul.bookmark-list li {
+    margin-top: 1.5rem;
+}
+
+.navbar img {
+    display: none;
+}
+
+.navbar.container {
+    padding: 0px 0px;
+}
+
+.navbar-brand.text-bold {
+    font-size: 16px;
+}
+
+ul.bookmark-list li .description a, ul.bookmark-list li .description a:visited:hover, .tag-cloud .highlight-char, .btn.btn-link:focus, .btn.btn-link:hover, .btn.btn-link:active, .btn.btn-link.active {
+    color: #333;
+}
+
+ul.bookmark-list li .description, .tag-cloud .unselected-tags a, .tag-cloud .unselected-tags a:visited:hover, h2 {
+    color: #333;
+}
+
+.text-gray, ul.bookmark-list li .actions a, ul.bookmark-list li .actions button {
+    color: #333 !important;
+}
+
+.btn.btn-primary:focus, .btn.btn-primary:hover, .pagination .page-item.active a {
+    background: #000 !important;
+    border-color: #000 !important;
+    color: white !important;
+}
+
+.btn.btn-primary, .form-checkbox input:checked + .form-icon, .form-radio input:checked + .form-icon, .form-switch input:checked + .form-icon {
+    background: black !important;
+    border-color: black !important;
+    color: white !important;
+}
+
+.btn {
+    border-color: #666;
+    color: #333;
+}
+
+.form-input {
+    border-color: #777;
+}
+
+.container.grid-lg {
+  max-width: 117ch;
+}
