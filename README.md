@@ -19,5 +19,5 @@ __Miniflux__
 __Flame__
 
 1. Copy the raw content of `flame/flame.css`
-2. Go to settings > CSS and paste it there.
+2. Go to `settings > CSS` and paste it there.
 3. Save and reload.
