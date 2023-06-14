@@ -1,4 +1,4 @@
-body {
+html, body {
   --color-background: #fff !important;
   --color-primary: #000 !important;
   --color-accent: #4e4e4e !important;
@@ -6,8 +6,8 @@ body {
 
   background-color: var(--color-background);
   transition: background-color 0.3s;
-  font-family: serif;
-  font-size: 16px;
+  font-family: serif !important;
+  font-size: 16px !important;
 }
 
 .AppCard_AppIcon__t3PVW {
