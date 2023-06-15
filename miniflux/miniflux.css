@@ -2,6 +2,7 @@
   --font-family: serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
   Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
   "Segoe UI Symbol", "Noto Color Emoji";
+  --big-font: 'Auge-Trial';
   --body-color: #000;
   --body-background: #fff;
   --item-background: #fff;
@@ -140,7 +141,7 @@
 }
 :root {
   --entry-content-font-weight: 400;
-  --entry-content-font-family: 'Vollkorn', serif;
+  --entry-content-font-family: serif;
   --entry-content-quote-font-family: monospace;
 }
 /*
@@ -528,7 +529,7 @@ select {
   padding-bottom: 0.5rem;
   padding-left: 0.75rem;
   font-size: 1rem;
-  line-height: 1.5rem;
+  line-height: 1.5em !important;
   --tw-shadow: 0 0 #0000;
 }
 [type='text']:focus,
@@ -897,15 +898,17 @@ a:hover {
   margin-bottom: 1.75rem;
 }
 .page-header h1 {
-  font-size: 2rem;
+  font-size: 3rem;
+  font-family: var(--big-font);
   line-height: 1.75rem;
-  font-weight: 500;
+  font-weight: 700;
   padding: 15px 0;
   border-bottom-width: 0px;
   border-style: dotted;
   margin-bottom: 0.25rem;
   border-color: var(--page-header-title-border-color);
 }
+
 .page-header h1 a {
   color: var(--page-header-title-color)
 }
@@ -1723,9 +1726,10 @@ article.feed-parsing-error {
   margin-right: 0px;
   margin-top: 0.25rem;
   margin-bottom: 1.5rem;
-  font-size: 2rem;
+  font-size: 3rem;
   line-height: 2.25rem;
-  font-weight: normal;
+  font-weight: 700;
+  font-family: var(--big-font);
   line-height: 1.25;
 }
 .entry header h1 a {
