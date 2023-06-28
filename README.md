@@ -1,6 +1,6 @@
 # paper-web
 
-__Unifie
+__Unified look for some self-hosted services, inspired by Lora theme__
 
 ## Contains
 
