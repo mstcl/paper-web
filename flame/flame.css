@@ -17,3 +17,8 @@ html, body {
 .AppCard_AppCardDetails__HgNoY {
     text-transform: none !important;
 }
+
+.AppCard_Apps__ykOr9 a:hover {
+    background: none !important;
+    text-decoration: underline !important;
+}
