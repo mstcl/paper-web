@@ -237,12 +237,11 @@ div#cgit {
   margin-top: 2% !important;
   -moz-tab-size: 4 !important;
   tab-size: 4 !important;
-  font-family: serif;
-  font-size: 12pt !important;
+  font-size: 16px !important;
   color: var(--fg);
   background: white;
   font-weight: 500;
-  font-family: "Bitter";
+  font-family: "Bitter", serif, sans-serif;
   line-height: 1.5em;
 }
 
@@ -316,7 +315,7 @@ div#cgit table#header td.sub {
   color: var(--fg-light);
   padding-left: 10px;
   font-weight: 600;
-  font-size: 120%;
+  font-size: 1.2em;
   line-height: 1.5em;
 }
 
@@ -346,7 +345,7 @@ div#cgit table.tabs td a:hover {
 div#cgit table.tabs td a.active {
   color: var(--bg) !important;
   background: var(--fg) !important;
-  padding: 2px 0.3em;
+  padding: 0.2em 0.3em;
 }
 
 div#cgit table.tabs a[href^="http://"]:after, div#cgit table.tabs a[href^="https://"]:after
