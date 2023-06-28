@@ -1,6 +1,19 @@
 # paper-web
 
-__Unified look for some self-hosted services, inspired by Lora theme__
+__Unifie
+
+## Contains
+
+- Lemmy (deprecated starting from version 0.18.0)
+- Linkding
+- Miniflux
+- Cgit
+- Flame
+
+## To be added
+
+- Dokuwiki: as external template
+- Zola: as external themed look for *.bim.boats, inspired by Lora theme__
 
 ## Instructions
 
@@ -21,3 +34,4 @@ __Flame__
 1. Copy the raw content of `flame/flame.css`
 2. Go to `settings > CSS` and paste it there.
 3. Save and reload.
+
