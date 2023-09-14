@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
   --color-background: #fff !important;
   --color-primary: #000 !important;
   --color-accent: #4e4e4e !important;
@@ -6,19 +7,21 @@ html, body {
 
   background-color: var(--color-background);
   transition: background-color 0.3s;
-  font-family: serif !important;
+  font-family: serif, sans-serif !important;
+  line-height: 1em !important;
   font-size: 16px !important;
+  font-weight: 500 !important;
 }
 
 .AppCard_AppIcon__t3PVW {
-    display: none;
+  display: none;
 }
 
 .AppCard_AppCardDetails__HgNoY {
-    text-transform: none !important;
+  text-transform: none !important;
 }
 
 .AppCard_Apps__ykOr9 a:hover {
-    background: none !important;
-    text-decoration: underline !important;
+  background: none !important;
+  text-decoration: underline !important;
 }

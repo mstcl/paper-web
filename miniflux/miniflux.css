@@ -872,7 +872,7 @@ a:hover {
 .page-header h1 {
     font-size: 3rem;
     font-family: var(--big-font);
-    line-height: 1.75rem;
+    line-height: normal;
     font-weight: 700;
     padding: 15px 0;
     border-bottom-width: 0px;

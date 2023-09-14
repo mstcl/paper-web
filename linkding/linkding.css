@@ -2,6 +2,7 @@ body {
     background-color: white !important;
     font-size: 16px;
     color: black;
+    font-family: serif !important;
 }
 
 .title a, .navbar-brand, .btn.btn-link, a {
@@ -16,8 +17,20 @@ body {
     margin-top: 1.5rem;
 }
 
-.navbar img {
+header .logo {
     display: none;
+}
+
+header h1 {
+    margin: 0px;
+    font-size: 0px;
+}
+
+header h1:after {
+    margin: 0px;
+    font-size: 24px;
+    content: "Linkding";
+    font-weight: 600;
 }
 
 .navbar.container {
@@ -63,4 +76,8 @@ ul.bookmark-list li .description, .tag-cloud .unselected-tags a, .tag-cloud .uns
 
 .container.grid-lg {
   max-width: 117ch;
+}
+
+html {
+    filter: grayscale(1) !important;
 }
