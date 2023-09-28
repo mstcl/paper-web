@@ -807,27 +807,27 @@ div.dokuwiki div.level2 {
 }
 div.dokuwiki div.level3 {
   /* margin-left: 1.1em; */
-  margin-left: 0.6em;
+  margin-left: 0em;
 }
 div.dokuwiki div.level4 {
-  margin-left: 1.6em;
+  margin-left: 0em;
 }
 div.dokuwiki div.level5 {
-  margin-left: 2.1em;
+  margin-left: 0em;
 }
 
 /* unordered lists */
 div.dokuwiki ul {
   list-style-type: square;
   list-style-image: none;
-  margin: 0 0 0.5em 1.5em;
+  margin: 1em 0 0.5em .2em;
   color: __text__;
 }
 
 /* ordered lists */
 div.dokuwiki ol {
   list-style-image: none;
-  margin: 0 0 0.5em 1.5em;
+  margin: 1em 0 0.5em .2em;
   color: __text__;
   font-weight: bold;
 }
@@ -835,7 +835,7 @@ div.dokuwiki ol {
 /* no bottom gap in between and smaller left margin for nested lists */
 div.dokuwiki li ul,
 div.dokuwiki li ol {
-  margin: 0 0 0 1.5em;
+  margin: 0 0 0 .2em;
 }
 
 /* the list items overriding the ul/ol definition */
